@@ -1,0 +1,19 @@
+{
+  "name": "bonvio-opr-landing",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bonvio-opr/bonvio-opr-landing",
+  "authors": [
+    "kollors <kollors@mail.ru>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.3.0"
+  }
+}

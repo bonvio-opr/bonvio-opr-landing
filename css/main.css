@@ -53,6 +53,25 @@ h1, h2, h3, h4, h5, h6,
     color: #252525;
 }
 
+#steps .title {
+    margin-bottom: 60px;
+}
+#steps .block .media {
+    margin-bottom: 33px;
+}
+#steps .block .media:last-child {
+    margin-bottom: 0;
+}
+#steps .block .media h4 {
+    color: #1b1b1b;
+}
+#steps .block .media p {
+    color: #999999;
+}
+#steps .block .media > .pull-left {
+    padding-right: 20px;
+}
+
 main > section {
     padding: 70px 0;
 }
@@ -807,7 +826,7 @@ ul.external li a:hover {
     border: 1px solid #e3e3e3;
 }
 
-.price-table.featured {
+.price-table.stepsd {
     -webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.19);
        -moz-box-shadow: 0 4px 5px rgba(0,0,0,0.19);
             box-shadow: 0 4px 5px rgba(0,0,0,0.19);
@@ -833,7 +852,7 @@ ul.external li a:hover {
             transition: all 0.7s ease 0s;
 }
 
-.price-table.featured .value {
+.price-table.stepsd .value {
     background-color: #009EE3;
     color: #fff;
 }
@@ -881,12 +900,12 @@ ul.external li a:hover {
     text-transform: uppercase;
 }
 
-.price-table.featured ul li:last-child,
+.price-table.stepsd ul li:last-child,
 .price-table ul li:last-child:hover {
     background-color: #009EE3;
 }
 
-.price-table.featured ul li:last-child a,
+.price-table.stepsd ul li:last-child a,
 .price-table ul li:last-child:hover a {
     color: #fff;
 }
