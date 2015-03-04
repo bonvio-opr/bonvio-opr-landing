@@ -308,3 +308,15 @@ $(function () {
     };
     filterList.init();
 });
+
+
+
+jQuery(document).ready(function($){
+    $(".fancybox.video").on("click", function(){
+        $.fancybox({
+            href: this.href,
+            type: $(this).data("type")
+        }); // fancybox
+        return false
+    }); // on
+}); // ready

@@ -94,9 +94,10 @@ Fixed Navigation
             <ul id="nav" class="nav navbar-nav navbar-response">
                 <li><a href="#body">Главная</a></li>
                 <li><a href="#service">Автоматизация</a></li>
-                <li><a href="#portfolio">Реальный пример</a></li>
                 <li><a href="#testimonials">Вопрос - ответ </a></li>
                 <li><a href="#steps">Этапы</a></li>
+                <li><a href="#portfolios">Пример</a></li>
+                <li><a href="#gallery">Галерея</a></li>
                 <li><a href="#contact">Контакты</a></li>
             </ul>
         </nav>
@@ -194,9 +195,9 @@ End Fixed Navigation
     <?php require "parts/about.html" ?>
 
     <?php require "parts/service.html" ?>
-    <?php require "parts/portfolio.html" ?>
     <?php require "parts/question.html" ?>
     <?php require "parts/steps.html" ?>
+    <?php require "parts/portfolio.html" ?>
     <?php require "parts/gallery.html" ?>
     <?php require "parts/social.html" ?>
     <?php require "parts/contact.html" ?>
